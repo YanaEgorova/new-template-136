@@ -51,7 +51,8 @@
     position: absolute;
     display: block;
     content: '';
-    background-color: rgba(94, 111, 214, .2);
+    background-color: var(--second-brand-color);
+    opacity: .2;
     border-radius: 50%;
     top: 50%;
     right: -2rem;
@@ -169,7 +170,7 @@
         content: '';
         width: 120%;
         height: 120%;
-        background-color: rgba(94, 111, 214, .2);
+        background-color: var(--second-brand-color);
         position: absolute;
         top: -2rem;
         right: -2rem;

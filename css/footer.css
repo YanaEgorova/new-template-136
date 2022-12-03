@@ -74,8 +74,7 @@
 }
   .footer__wrapper-contacts {
     display: block;
-    background-color: var(--second-brand-color);
-    background-color: rgba(94, 111, 214, .9);
+    background-color: var(--third-brand-color);
     top: -4.3rem;
     width: 95%;
     left: 50%;

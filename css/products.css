@@ -81,7 +81,7 @@
     border-radius: 50%;
 }
 .product__img-box::before {
-    background-color: #3c4da1;
+    background-color: var(--second-brand-color);
     width: 34rem;
     height: 34rem;
     border-radius: 50%;
