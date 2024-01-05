@@ -14,9 +14,10 @@ body.open-menu {
 .header__flex {
     display: flex;
     align-items: center;
+    /* width: 100%; */
 }
 .logo {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: var(--title-font);
     z-index: 10;
 }
@@ -91,7 +92,8 @@ body.open-menu {
     opacity: 1;
 }
 .cart__btn {
-    display: none;
+    margin-right: 3rem;
+    display: flex;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -106,7 +108,7 @@ body.open-menu {
 }
 @media screen and (min-width: 1024px) {
     .logo {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
  
     .nav__link {
